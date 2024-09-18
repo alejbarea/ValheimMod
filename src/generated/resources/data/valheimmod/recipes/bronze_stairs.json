@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bronze",
+  "key": {
+    "#": {
+      "item": "valheimmod:bronze"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "valheimmod:bronze_stairs"
+  }
+}

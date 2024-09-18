@@ -1,0 +1,17 @@
+{
+  "values": [
+    "valheimmod:tin_block",
+    "valheimmod:bronze_block",
+    "valheimmod:forge_block",
+    "valheimmod:tin_ore",
+    "valheimmod:bronze_button",
+    "valheimmod:bronze_fence",
+    "valheimmod:bronze_fence_gate",
+    "valheimmod:bronze_wall",
+    "valheimmod:bronze_trapdoor",
+    "valheimmod:bronze_door",
+    "valheimmod:bronze_pressure_plate",
+    "valheimmod:bronze_stairs",
+    "valheimmod:bronze_slab"
+  ]
+}

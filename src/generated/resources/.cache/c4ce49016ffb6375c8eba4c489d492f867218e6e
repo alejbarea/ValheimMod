@@ -1,0 +1,6 @@
+// 1.20.6	2024-09-15T19:31:16.5623931	Tags for minecraft:block mod id valheimmod
+5ec0ae826539aa0b5eab0eb8203a3dd335435a25 data/minecraft/tags/blocks/fences.json
+77434ec896637583e831a749400635a7855ac47a data/minecraft/tags/blocks/fence_gates.json
+0d73f3f8b45bcba94d960a98bddb734d19dd2ab1 data/minecraft/tags/blocks/mineable/pickaxe.json
+0d73f3f8b45bcba94d960a98bddb734d19dd2ab1 data/minecraft/tags/blocks/needs_stone_tool.json
+96d12b09fd6be8b6c9e8b8938de7fa364ef86a53 data/minecraft/tags/blocks/walls.json

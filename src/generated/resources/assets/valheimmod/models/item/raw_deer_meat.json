@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "valheimmod:item/raw_deer_meat"
+  }
+}

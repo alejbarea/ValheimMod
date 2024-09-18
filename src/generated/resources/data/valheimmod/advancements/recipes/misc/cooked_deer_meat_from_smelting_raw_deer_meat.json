@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_deer_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "valheimmod:raw_deer_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "valheimmod:cooked_deer_meat_from_smelting_raw_deer_meat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_deer_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "valheimmod:cooked_deer_meat_from_smelting_raw_deer_meat"
+    ]
+  }
+}

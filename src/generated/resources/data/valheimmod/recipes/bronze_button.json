@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "bronze",
+  "ingredients": [
+    {
+      "item": "valheimmod:bronze"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "valheimmod:bronze_button"
+  }
+}

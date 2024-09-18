@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "valheimmod:block/bronze_slab"
+    },
+    "type=double": {
+      "model": "valheimmod:block/bronze_block"
+    },
+    "type=top": {
+      "model": "valheimmod:block/bronze_slab_top"
+    }
+  }
+}

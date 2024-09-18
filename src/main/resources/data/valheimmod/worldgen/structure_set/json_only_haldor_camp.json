@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "valheimmod:json_only_haldor_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 31415955,
+
+    "spacing": 12,
+
+    "separation": 4
+  }
+}

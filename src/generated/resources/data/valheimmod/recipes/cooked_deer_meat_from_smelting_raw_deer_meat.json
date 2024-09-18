@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "tin",
+  "ingredient": {
+    "item": "valheimmod:raw_deer_meat"
+  },
+  "result": {
+    "id": "valheimmod:cooked_deer_meat"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "valheimmod:block/bronze_pressure_plate"
+    },
+    "powered=true": {
+      "model": "valheimmod:block/bronze_pressure_plate_down"
+    }
+  }
+}

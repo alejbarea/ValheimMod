@@ -1,0 +1,5 @@
+// 1.20.6	2024-09-17T23:08:00.2479779	Registries
+6b1cc12d329f6b321b62103943872f79ad888f4e data/valheimmod/forge/biome_modifier/add_deers.json
+9876576470acc71d1e0174b77f48beda40b8f773 data/valheimmod/forge/biome_modifier/add_tin_ore.json
+2f51331b6e5135568a54eb7d14cff2be137830d4 data/valheimmod/worldgen/configured_feature/tin_ore.json
+5adaa58a612a1230bec74dc8fa46c3c455a462b0 data/valheimmod/worldgen/placed_feature/tin_ore_placed.json

@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "valheimmod:item/bronze_spear_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "valheimmod:item/bronze_spear_2d"
+    },
+    "ground": {
+      "parent": "valheimmod:item/bronze_spear_3d"
+    },
+    "fixed": {
+      "parent": "valheimmod:item/bronze_spear_2d"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "valheimmod:item/bronze_spear_2d"
+	}
+}

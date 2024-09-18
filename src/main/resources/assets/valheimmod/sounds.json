@@ -1,0 +1,44 @@
+{
+  "haldor_greetings": {
+    "subtitles": "sounds.valheimmod.haldor_greetings",
+    "sounds": [
+      "valheimmod:haldor_greetings"
+    ]
+  },
+  "troll_hurt": {
+    "subtitles": "sounds.valheimmod.troll_hurt",
+    "sounds": [
+      "valheimmod:troll_hurt"
+    ]
+  },
+  "troll_ambient": {
+    "subtitles": "sounds.valheimmod.troll_ambient",
+    "sounds": [
+      "valheimmod:troll_ambient"
+    ]
+  },
+  "troll_death": {
+    "subtitles": "sounds.valheimmod.troll_death",
+    "sounds": [
+      "valheimmod:troll_death"
+    ]
+  },
+  "deer_death": {
+    "subtitles": "sounds.valheimmod.deer_death",
+    "sounds": [
+      "valheimmod:deer_death"
+    ]
+  },
+  "deer_hurt": {
+    "subtitles": "sounds.valheimmod.deer_hurt",
+    "sounds": [
+      "valheimmod:deer_hurt"
+    ]
+  },
+  "deer_ambient": {
+    "subtitles": "sounds.valheimmod.deer_ambient",
+    "sounds": [
+      "valheimmod:deer_ambient"
+    ]
+  }
+}

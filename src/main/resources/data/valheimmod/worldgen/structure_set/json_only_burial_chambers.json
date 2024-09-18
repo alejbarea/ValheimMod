@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "valheimmod:json_only_burial_chambers",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 3141592,
+
+    "spacing": 12,
+
+    "separation": 4
+  }
+}

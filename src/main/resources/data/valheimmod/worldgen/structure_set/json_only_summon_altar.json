@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "valheimmod:json_only_summon_altar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 3141594,
+
+    "spacing": 12,
+
+    "separation": 4
+  }
+}
