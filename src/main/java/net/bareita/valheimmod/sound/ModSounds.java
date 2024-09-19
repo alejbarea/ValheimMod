@@ -23,6 +23,10 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> DEER_AMBIENT = registerSoundEvents("deer_ambient");
     public static final RegistryObject<SoundEvent> DEER_HURT = registerSoundEvents("deer_hurt");
     public static final RegistryObject<SoundEvent> DEER_DEATH = registerSoundEvents("deer_death");
+
+    public static final RegistryObject<SoundEvent> EIKTHYR_AMBIENT = registerSoundEvents("eikthyr_ambient");
+    public static final RegistryObject<SoundEvent> EIKTHYR_HURT = registerSoundEvents("eikthyr_hurt");
+    public static final RegistryObject<SoundEvent> EIKTHYR_DEATH = registerSoundEvents("eikthyr_death");
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(ValheimMod.MODID, name)));
     }

@@ -50,7 +50,11 @@ public class ModCreativeModTabs {
         pOutput.accept(ModItems.DEER_SPAWN_EGG.get());
         pOutput.accept(ModItems.DEER_TROPHY.get());
         pOutput.accept(ModBlocks.EIKTHYR_SUMMON.get());
-
+        pOutput.accept(ModItems.TROLL_SKIN.get());
+        pOutput.accept(ModItems.TROLL_BOOTS.get());
+        pOutput.accept(ModItems.TROLL_LEGS.get());
+        pOutput.accept(ModItems.TROLL_CHEST.get());
+        pOutput.accept(ModItems.TROLL_HELMET.get());
     }).build());
 
     public static void register(IEventBus eventBus) {

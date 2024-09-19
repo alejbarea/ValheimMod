@@ -6,6 +6,7 @@ import net.bareita.valheimmod.entity.custom.EikthyrEntity;
 import net.bareita.valheimmod.item.ModItems;
 import net.bareita.valheimmod.util.ModTags;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.EntityType;
@@ -29,6 +30,8 @@ public class EikthyrSummonBlock extends Block{
             EikthyrEntity deer = new EikthyrEntity(ModEntities.EIKTHYR.get(), pLevel);
             deer.setPos(pPos.getX(), pPos.getY(), pPos.getZ());
             pLevel.addFreshEntity(deer);
+        } else {
+            pPlayer.sendSystemMessage(Component.literal("You need a deer trophy!"));
         }
         return ItemInteractionResult.SUCCESS;
     }

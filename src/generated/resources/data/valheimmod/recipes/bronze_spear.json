@@ -12,7 +12,7 @@
   "pattern": [
     "  A",
     " B ",
-    "  B"
+    "B  "
   ],
   "result": {
     "count": 1,

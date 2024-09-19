@@ -6,10 +6,10 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valheimmod:surtling_core"
+          "name": "valheimmod:troll_skin"
         }
       ],
-      "rolls": 1.0
+      "rolls": 5.0
     }
   ],
   "random_sequence": "valheimmod:entities/troll"

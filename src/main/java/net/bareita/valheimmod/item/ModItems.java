@@ -3,10 +3,7 @@ package net.bareita.valheimmod.item;
 import net.bareita.valheimmod.ValheimMod;
 import net.bareita.valheimmod.block.ModBlocks;
 import net.bareita.valheimmod.entity.ModEntities;
-import net.bareita.valheimmod.item.custom.BronzeArmorItem;
-import net.bareita.valheimmod.item.custom.FuelItem;
-import net.bareita.valheimmod.item.custom.SpearItem;
-import net.bareita.valheimmod.item.custom.WishboneItem;
+import net.bareita.valheimmod.item.custom.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -43,6 +40,13 @@ public class ModItems {
     public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots", () -> new BronzeArmorItem(ModArmorMaterials.BRONZE,ArmorItem.Type.BOOTS,new Item.Properties().durability(300)));
     public static final RegistryObject<Item> BRONZE_CHEST = ITEMS.register("bronze_chest", () -> new BronzeArmorItem(ModArmorMaterials.BRONZE,ArmorItem.Type.CHESTPLATE,new Item.Properties().durability(300)));
     public static final RegistryObject<Item> BRONZE_LEGS = ITEMS.register("bronze_legs", () -> new BronzeArmorItem(ModArmorMaterials.BRONZE,ArmorItem.Type.LEGGINGS,new Item.Properties().durability(300)));
+
+    public static final RegistryObject<Item> TROLL_HELMET = ITEMS.register("troll_helmet", () -> new TrollArmorItem(ModArmorMaterials.TROLL,ArmorItem.Type.HELMET,new Item.Properties().durability(500)));
+    public static final RegistryObject<Item> TROLL_BOOTS = ITEMS.register("troll_boots", () -> new TrollArmorItem(ModArmorMaterials.TROLL,ArmorItem.Type.BOOTS,new Item.Properties().durability(500)));
+    public static final RegistryObject<Item> TROLL_CHEST = ITEMS.register("troll_chest", () -> new TrollArmorItem(ModArmorMaterials.TROLL,ArmorItem.Type.CHESTPLATE,new Item.Properties().durability(500)));
+    public static final RegistryObject<Item> TROLL_LEGS = ITEMS.register("troll_legs", () -> new TrollArmorItem(ModArmorMaterials.TROLL,ArmorItem.Type.LEGGINGS,new Item.Properties().durability(500)));
+
+    public static final RegistryObject<Item> TROLL_SKIN = ITEMS.register("troll_skin", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ONION_SEED = ITEMS.register("onion_seed", () -> new ItemNameBlockItem(ModBlocks.ONION_CROP.get(), new Item.Properties()));
 

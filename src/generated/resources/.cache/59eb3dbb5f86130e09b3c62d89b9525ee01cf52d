@@ -1,4 +1,4 @@
-// 1.20.6	2024-09-17T18:15:24.7645287	Loot Tables
+// 1.20.6	2024-09-19T21:52:05.9522567	Loot Tables
 d380c966e7f66706bc4395633e9f42719ee9bb68 data/valheimmod/loot_tables/blocks/bronze_block.json
 15642b85d27c16c138902670295900a2ba16675c data/valheimmod/loot_tables/blocks/bronze_button.json
 5f941e8d80f268ef6d3c2c598f8925c026857cfa data/valheimmod/loot_tables/blocks/bronze_door.json
@@ -14,4 +14,4 @@ ed150d034a352f607c06f467b50e789cfd08c9b2 data/valheimmod/loot_tables/blocks/onio
 b4035dae4e319077a3a47b7cb34010942c9d81f9 data/valheimmod/loot_tables/blocks/tin_block.json
 3d180d8475397ae3ea3bdef77908da7937327e9f data/valheimmod/loot_tables/blocks/tin_ore.json
 5fa40c86feccda91f26784b74ef9382e7fb4e1a9 data/valheimmod/loot_tables/entities/deer.json
-1eba77f4b6293739ed5718e8d960954d236a3276 data/valheimmod/loot_tables/entities/troll.json
+95dddc48eece5ece3a24601208ada48765a976c3 data/valheimmod/loot_tables/entities/troll.json

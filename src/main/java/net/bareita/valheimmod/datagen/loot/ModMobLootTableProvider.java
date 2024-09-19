@@ -28,8 +28,8 @@ public class ModMobLootTableProvider extends EntityLootSubProvider {
     public void generate() {
         this.add(ModEntities.TROLL.get(), LootTable.lootTable()
                 .withPool(LootPool.lootPool()
-                        .setRolls(ConstantValue.exactly(1))  // Number of items to drop
-                        .add(LootItem.lootTableItem(ModItems.SURTLING_CORE.get())) // Item to drop
+                        .setRolls(ConstantValue.exactly(5))  // Number of items to drop
+                        .add(LootItem.lootTableItem(ModItems.TROLL_SKIN.get())) // Item to drop
                 )
         );
 

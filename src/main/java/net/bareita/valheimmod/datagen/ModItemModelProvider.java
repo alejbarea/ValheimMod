@@ -43,7 +43,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DEER_TROPHY);
         simpleItem(ModItems.TROLL_SPAWN_EGG);
         simpleItem(ModItems.DEER_SPAWN_EGG);
-
+        simpleItem(ModItems.TROLL_SKIN);
+        simpleItem(ModItems.TROLL_BOOTS);
+        simpleItem(ModItems.TROLL_LEGS);
+        simpleItem(ModItems.TROLL_CHEST);
+        simpleItem(ModItems.TROLL_HELMET);
 
         simpleBlockItem(ModBlocks.BRONZE_DOOR);
         fenceItem(ModBlocks.BRONZE_FENCE,ModBlocks.BRONZE_BLOCK);

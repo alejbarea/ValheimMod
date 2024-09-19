@@ -174,17 +174,17 @@ public class EikthyrEntity extends Monster {
 
     @Override
     protected @Nullable SoundEvent getAmbientSound() {
-        return ModSounds.DEER_AMBIENT.get();
+        return ModSounds.EIKTHYR_AMBIENT.get();
     }
 
     @Override
     protected @Nullable SoundEvent getHurtSound(DamageSource pDamageSource) {
-        return ModSounds.DEER_HURT.get();
+        return ModSounds.EIKTHYR_HURT.get();
     }
 
     @Override
     protected @Nullable SoundEvent getDeathSound() {
-        return ModSounds.DEER_DEATH.get();
+        return ModSounds.EIKTHYR_DEATH.get();
     }
 
     @Override

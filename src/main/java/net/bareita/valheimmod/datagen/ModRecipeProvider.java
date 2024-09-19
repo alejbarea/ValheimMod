@@ -40,8 +40,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_CHEST.get()).pattern("A A").pattern("AAA").pattern("AAA").define('A', ModItems.BRONZE.get()).unlockedBy(getHasName(ModItems.BRONZE.get()), has(ModItems.BRONZE.get())).save(pRecipeOutput);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_LEGS.get()).pattern("AAA").pattern("A A").pattern("A A").define('A', ModItems.BRONZE.get()).unlockedBy(getHasName(ModItems.BRONZE.get()), has(ModItems.BRONZE.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_SPEAR.get()).pattern("  A").pattern(" B ").pattern("  B").define('A', ModItems.BRONZE.get()).define('B',Items.STICK).unlockedBy(getHasName(ModItems.BRONZE.get()), has(ModItems.BRONZE.get())).save(pRecipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SPEAR.get()).pattern("  A").pattern(" B ").pattern("  B").define('A', Items.COBBLESTONE).define('B',Items.STICK).unlockedBy(getHasName(Items.COBBLESTONE), has(Items.COBBLESTONE)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TROLL_HELMET.get()).pattern("AAA").pattern("A A").define('A', ModItems.TROLL_SKIN.get()).unlockedBy(getHasName(ModItems.TROLL_SKIN.get()), has(ModItems.TROLL_SKIN.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TROLL_BOOTS.get()).pattern("A A").pattern("A A").define('A', ModItems.TROLL_SKIN.get()).unlockedBy(getHasName(ModItems.TROLL_SKIN.get()), has(ModItems.TROLL_SKIN.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TROLL_CHEST.get()).pattern("A A").pattern("AAA").pattern("AAA").define('A', ModItems.TROLL_SKIN.get()).unlockedBy(getHasName(ModItems.TROLL_SKIN.get()), has(ModItems.TROLL_SKIN.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TROLL_LEGS.get()).pattern("AAA").pattern("A A").pattern("A A").define('A', ModItems.TROLL_SKIN.get()).unlockedBy(getHasName(ModItems.TROLL_SKIN.get()), has(ModItems.TROLL_SKIN.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_SPEAR.get()).pattern("  A").pattern(" B ").pattern("B  ").define('A', ModItems.BRONZE.get()).define('B',Items.STICK).unlockedBy(getHasName(ModItems.BRONZE.get()), has(ModItems.BRONZE.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SPEAR.get()).pattern("  A").pattern(" B ").pattern("B  ").define('A', Items.COBBLESTONE).define('B',Items.STICK).unlockedBy(getHasName(Items.COBBLESTONE), has(Items.COBBLESTONE)).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TIN_BLOCK.get()).pattern("SSS").pattern("SSS").pattern("SSS").define('S',ModItems.TIN.get()).unlockedBy(getHasName(ModItems.TIN.get()), has(ModItems.TIN.get())).save(pRecipeOutput);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BRONZE_BLOCK.get()).pattern("SSS").pattern("SSS").pattern("SSS").define('S',ModItems.BRONZE.get()).unlockedBy(getHasName(ModItems.BRONZE.get()), has(ModItems.BRONZE.get())).save(pRecipeOutput);

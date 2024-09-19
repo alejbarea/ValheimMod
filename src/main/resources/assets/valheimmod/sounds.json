@@ -40,5 +40,23 @@
     "sounds": [
       "valheimmod:deer_ambient"
     ]
+  },
+  "eikthyr_death": {
+    "subtitles": "sounds.valheimmod.eikthyr_death",
+    "sounds": [
+      "valheimmod:eikthyr_death"
+    ]
+  },
+  "eikthyr_hurt": {
+    "subtitles": "sounds.valheimmod.eikthyr_hurt",
+    "sounds": [
+      "valheimmod:eikthyr_hurt"
+    ]
+  },
+  "eikthyr_ambient": {
+    "subtitles": "sounds.valheimmod.eikthyr_ambient",
+    "sounds": [
+      "valheimmod:eikthyr_ambient"
+    ]
   }
 }

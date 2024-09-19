@@ -1,4 +1,4 @@
-// 1.20.6	2024-09-18T23:49:49.8222263	Item Models: valheimmod
+// 1.20.6	2024-09-19T21:52:05.9547682	Item Models: valheimmod
 74b4c8ba4b1d870a9ab497157fe058f68fb8a12c assets/valheimmod/models/item/bronze.json
 7a64b69140e27116a64ae003abbeef50be1ac94f assets/valheimmod/models/item/bronze_axe.json
 7668c05b86f605de1cc1703193d213786c67d9bb assets/valheimmod/models/item/bronze_boots.json
@@ -22,5 +22,10 @@ bc2053b258c140746702963eefaf5eb61b89a1e5 assets/valheimmod/models/item/onion.jso
 e4984e86393f9183e785ce7e0da7d8526893c82e assets/valheimmod/models/item/raw_tin.json
 9cf35bf888d52cfe20018dd6fd60084d6883409e assets/valheimmod/models/item/surtling_core.json
 7ac3c0ac0a6297265eaf39fc93bc56aae3826655 assets/valheimmod/models/item/tin.json
+35e9d702500d115d5681f37ee9712d5c7f9f0702 assets/valheimmod/models/item/troll_boots.json
+c77182d05edbbba1af9da49b124874202ca8ec68 assets/valheimmod/models/item/troll_chest.json
+d8a8f9e0335eb05dfdbdc0a2900019e17d5075de assets/valheimmod/models/item/troll_helmet.json
+92736baa7c0313ef0471d92e27c261641da559d0 assets/valheimmod/models/item/troll_legs.json
+0c7b2d1fe1fd8cafe547a6467d2db03f5550f285 assets/valheimmod/models/item/troll_skin.json
 134b6f05e510cbcc3cf57e27365f7ad9d9cc03de assets/valheimmod/models/item/troll_spawn_egg.json
 3b04a4888e3e3634ba0496539a0d95f182b2727a assets/valheimmod/models/item/wishbone.json

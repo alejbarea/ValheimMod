@@ -28,6 +28,14 @@ public class ModArmorMaterials {
         p_327103_.put(ArmorItem.Type.BODY, 8);
     }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 1F, () -> Ingredient.of(Items.NETHERITE_INGOT));
 
+    public static final Holder<ArmorMaterial> TROLL = register("troll", Util.make(new EnumMap<>(ArmorItem.Type.class), p_327103_ -> {
+        p_327103_.put(ArmorItem.Type.BOOTS, 3);
+        p_327103_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_327103_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_327103_.put(ArmorItem.Type.HELMET, 4);
+        p_327103_.put(ArmorItem.Type.BODY, 9);
+    }), 15, SoundEvents.ARMOR_EQUIP_LEATHER, 3.0F, 1F, () -> Ingredient.of(Items.LEATHER));
+
     private static Holder<ArmorMaterial> register(
             String pName,
             EnumMap<ArmorItem.Type, Integer> pDefense,

@@ -1,31 +1,31 @@
-[18sept2024 23:49:43.472] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 16, --assetsDir, C:\Users\alexb\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, valheimmod, --all, --output, C:\Users\alexb\Mod Minecraft\Forge tut\src\generated\resources, --existing, C:\Users\alexb\Mod Minecraft\Forge tut\src\main\resources]
-[18sept2024 23:49:43.474] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
-[18sept2024 23:49:43.476] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[18sept2024 23:49:43.559] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[18sept2024 23:49:43.657] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/alexb/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
-[18sept2024 23:49:44.344] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[18sept2024 23:49:44.992] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\alexb\.gradle\caches\forge_gradle\assets, --assetIndex, 16, --mod, valheimmod, --all, --output, C:\Users\alexb\Mod Minecraft\Forge tut\src\generated\resources, --existing, C:\Users\alexb\Mod Minecraft\Forge tut\src\main\resources]
-[18sept2024 23:49:48.781] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.1.12, for MC 1.20.6 with MCP 20240429.135109
-[18sept2024 23:49:48.783] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.1.12 Initialized
-[18sept2024 23:49:48.802] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[18sept2024 23:49:49.293] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [valheimmod]
-[18sept2024 23:49:49.351] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/alexb/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.12_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.12_mapped_parchment_2024.06.16-1.20.6-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[18sept2024 23:49:49.351] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/alexb/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.12_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.12_mapped_parchment_2024.06.16-1.20.6-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[18sept2024 23:49:49.493] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[18sept2024 23:49:49.622] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 127 ms
-[18sept2024 23:49:49.622] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[18sept2024 23:49:49.661] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 39 ms
-[18sept2024 23:49:49.661] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id valheimmod
-[18sept2024 23:49:49.680] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id valheimmod finished after 18 ms
-[18sept2024 23:49:49.680] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id valheimmod
-[18sept2024 23:49:49.683] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id valheimmod finished after 2 ms
-[18sept2024 23:49:49.683] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: valheimmod
-[18sept2024 23:49:49.702] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: valheimmod finished after 19 ms
-[18sept2024 23:49:49.702] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: valheimmod
-[18sept2024 23:49:49.815] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: valheimmod finished after 112 ms
-[18sept2024 23:49:49.815] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id valheimmod
-[18sept2024 23:49:49.816] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id valheimmod finished after 1 ms
-[18sept2024 23:49:49.816] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[18sept2024 23:49:49.819] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 3 ms
-[18sept2024 23:49:49.819] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 326 ms
-[18sept2024 23:49:49.826] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 174, old count: 174, new count: 175, removed stale: 0, written: 2
+[20sept2024 00:18:07.747] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 16, --assetsDir, C:\Users\alexb\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, valheimmod, --all, --output, C:\Users\alexb\Mod Minecraft\Forge tut\src\generated\resources, --existing, C:\Users\alexb\Mod Minecraft\Forge tut\src\main\resources]
+[20sept2024 00:18:07.749] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[20sept2024 00:18:07.750] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[20sept2024 00:18:07.827] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[20sept2024 00:18:07.899] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/alexb/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[20sept2024 00:18:08.558] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20sept2024 00:18:09.055] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\alexb\.gradle\caches\forge_gradle\assets, --assetIndex, 16, --mod, valheimmod, --all, --output, C:\Users\alexb\Mod Minecraft\Forge tut\src\generated\resources, --existing, C:\Users\alexb\Mod Minecraft\Forge tut\src\main\resources]
+[20sept2024 00:18:12.645] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.1.12, for MC 1.20.6 with MCP 20240429.135109
+[20sept2024 00:18:12.648] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.1.12 Initialized
+[20sept2024 00:18:12.666] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[20sept2024 00:18:13.194] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [valheimmod]
+[20sept2024 00:18:13.248] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/alexb/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.12_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.12_mapped_parchment_2024.06.16-1.20.6-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[20sept2024 00:18:13.249] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/alexb/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.12_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.12_mapped_parchment_2024.06.16-1.20.6-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[20sept2024 00:18:13.332] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[20sept2024 00:18:13.475] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 143 ms
+[20sept2024 00:18:13.475] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[20sept2024 00:18:13.516] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 40 ms
+[20sept2024 00:18:13.516] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id valheimmod
+[20sept2024 00:18:13.534] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id valheimmod finished after 17 ms
+[20sept2024 00:18:13.534] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id valheimmod
+[20sept2024 00:18:13.536] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id valheimmod finished after 2 ms
+[20sept2024 00:18:13.536] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: valheimmod
+[20sept2024 00:18:13.556] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: valheimmod finished after 19 ms
+[20sept2024 00:18:13.556] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: valheimmod
+[20sept2024 00:18:13.661] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: valheimmod finished after 104 ms
+[20sept2024 00:18:13.661] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id valheimmod
+[20sept2024 00:18:13.662] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id valheimmod finished after 1 ms
+[20sept2024 00:18:13.662] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[20sept2024 00:18:13.666] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 3 ms
+[20sept2024 00:18:13.666] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 333 ms
+[20sept2024 00:18:13.674] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 187, old count: 187, new count: 188, removed stale: 0, written: 2

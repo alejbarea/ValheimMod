@@ -3,19 +3,16 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:cobblestone"
-    },
-    "B": {
-      "item": "minecraft:stick"
+      "item": "valheimmod:troll_skin"
     }
   },
   "pattern": [
-    "  A",
-    " B ",
-    "B  "
+    "AAA",
+    "A A",
+    "A A"
   ],
   "result": {
     "count": 1,
-    "id": "valheimmod:spear"
+    "id": "valheimmod:troll_legs"
   }
 }
