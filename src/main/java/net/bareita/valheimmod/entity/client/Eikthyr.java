@@ -46,7 +46,7 @@ public class Eikthyr<T extends Entity> extends HierarchicalModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition Eikthyr = partdefinition.addOrReplaceChild("Eikthyr", CubeListBuilder.create(), PartPose.offset(0.0F, 24.0F, 0.0F));
+		PartDefinition Eikthyr = partdefinition.addOrReplaceChild("Eikthyr", CubeListBuilder.create(), PartPose.offsetAndRotation(0.0F, 24.0F, 0.0F, 0.0F, (float) Math.toRadians(270), 0.0F));
 
 		PartDefinition body = Eikthyr.addOrReplaceChild("body", CubeListBuilder.create(), PartPose.offset(0.0F, 0.0F, 0.0F));
 

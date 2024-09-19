@@ -41,8 +41,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ONION_SEED);
         simpleItem(ModItems.SURTLING_CORE);
         simpleItem(ModItems.DEER_TROPHY);
-        withExistingParent(ModItems.TROLL_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
-        withExistingParent(ModItems.DEER_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        simpleItem(ModItems.TROLL_SPAWN_EGG);
+        simpleItem(ModItems.DEER_SPAWN_EGG);
 
 
         simpleBlockItem(ModBlocks.BRONZE_DOOR);

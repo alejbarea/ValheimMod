@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class EikthyrRenderer extends MobRenderer<EikthyrEntity, Eikthyr<EikthyrEntity>> {
     public EikthyrRenderer(EntityRendererProvider.Context pContext) {
-        super(pContext, new Eikthyr<>(pContext.bakeLayer(ModModelLayers.EIKTHYR_LAYER)), 1f);
+        super(pContext, new Eikthyr<>(pContext.bakeLayer(ModModelLayers.EIKTHYR_LAYER)), 0.5f);
     }
     @Override
     public void render(EikthyrEntity pEntity, float pEntityYaw, float pPartialTicks, PoseStack pPoseStack, MultiBufferSource pBuffer, int pPackedLight) {

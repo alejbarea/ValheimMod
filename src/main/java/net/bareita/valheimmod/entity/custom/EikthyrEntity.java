@@ -1,6 +1,7 @@
 package net.bareita.valheimmod.entity.custom;
 
 import net.bareita.valheimmod.entity.ModEntities;
+import net.bareita.valheimmod.entity.ai.EikthyrAttackGoal;
 import net.bareita.valheimmod.item.ModItems;
 import net.bareita.valheimmod.sound.ModSounds;
 import net.minecraft.core.BlockPos;
@@ -55,13 +56,20 @@ public class EikthyrEntity extends Monster {
     }
 
     @Override
+    public void stopSeenByPlayer(ServerPlayer pServerPlayer) {
+        super.stopSeenByPlayer(pServerPlayer);
+        this.bossEvent.removePlayer(pServerPlayer);
+    }
+
+
+    @Override
     protected void registerGoals() {
         this.goalSelector.addGoal(0, new FloatGoal(this));
         this.goalSelector.addGoal(1, new WaterAvoidingRandomStrollGoal(this, 1.1D));
         this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 3f));
         this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
         this.targetSelector.addGoal(1, new NearestAttackableTargetGoal<>(this,Player.class,10,true,false,null)); // Target only when hurt
-        this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.0D, false)); // Attack when provoked
+        this.goalSelector.addGoal(3, new EikthyrAttackGoal(this, 1.0D, false)); // Attack when provoked
 
     }
 
@@ -108,7 +116,7 @@ public class EikthyrEntity extends Monster {
     @Override
     public void tick() {
         super.tick();
-
+        this.bossEvent.setProgress(this.getHealth() / this.getMaxHealth());
         if(this.level().isClientSide()) {
             setupAnimationStates();
         }

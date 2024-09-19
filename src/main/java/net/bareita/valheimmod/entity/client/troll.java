@@ -18,17 +18,27 @@ import net.minecraft.world.entity.Entity;
 public class troll<T extends Entity> extends HierarchicalModel<T> {
 
 	private final ModelPart troll;
-	private final ModelPart head;
+	private final ModelPart cabeza;
+	private final ModelPart torso;
+	private final ModelPart brazo_izq;
+	private final ModelPart brazo_der;
+	private final ModelPart pata_der;
+	private final ModelPart pata_izq;
 	public troll(ModelPart root) {
 		this.troll = root.getChild("troll");
-		this.head = this.troll.getChild("body").getChild("cabeza");
+		this.cabeza = this.troll.getChild("body").getChild("cabeza");
+		this.torso = this.troll.getChild("body").getChild("torso");
+		this.brazo_izq = this.troll.getChild("body").getChild("brazo_izq");
+		this.brazo_der = this.troll.getChild("body").getChild("brazo_der");
+		this.pata_der = this.troll.getChild("body").getChild("pata_der");
+		this.pata_izq = this.troll.getChild("body").getChild("pata_izq");
 	}
 
 	public static LayerDefinition createBodyLayer() {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition troll = partdefinition.addOrReplaceChild("troll", CubeListBuilder.create(), PartPose.offset(0.0F, 24.0F, 0.0F));
+		PartDefinition troll = partdefinition.addOrReplaceChild("troll", CubeListBuilder.create(), PartPose.offsetAndRotation(0.0F, 24.0F, 0.0F, 0.0F, (float)Math.PI / 2, 0.0F));
 
 		PartDefinition body = troll.addOrReplaceChild("body", CubeListBuilder.create(), PartPose.offset(0.0F, 0.0F, 0.0F));
 
@@ -57,17 +67,15 @@ public class troll<T extends Entity> extends HierarchicalModel<T> {
 	public void setupAnim(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
 		this.applyHeadRotation(netHeadYaw, headPitch, ageInTicks);
-		this.animateWalk(ModAnimationDefinitions.ANDAR, limbSwing, limbSwingAmount, 2f, 2.5f);
-		this.animate(((TrollEntity) entity).idleAnimationState, ModAnimationDefinitions.IDLE, ageInTicks, 1f);
-		this.animate(((TrollEntity) entity).attackAnimationState, ModAnimationDefinitions.ATAQUE, ageInTicks, 1f);
+		this.animateWalk(ModAnimationDefinitions.ANDAR, limbSwing, limbSwingAmount, 1f, 1f);
+		this.animate(((TrollEntity) entity).idleAnimationState, ModAnimationDefinitions.IDLE, ageInTicks, 0.5f);
+		this.animate(((TrollEntity) entity).attackAnimationState, ModAnimationDefinitions.ATAQUE, ageInTicks, 0.5f);
 	}
 
 	private void applyHeadRotation(float pNetHeadYaw, float pHeadPitch, float pAgeInTicks) {
-		pNetHeadYaw = Mth.clamp(pNetHeadYaw, -30.0F, 30.0F);
-		pHeadPitch = Mth.clamp(pHeadPitch, -25.0F, 45.0F);
+		pNetHeadYaw = Mth.clamp(pNetHeadYaw, -2.5F, 2.5F);
 
-		this.head.yRot = pNetHeadYaw * ((float)Math.PI / 180F);
-		this.head.xRot = pHeadPitch * ((float)Math.PI / 180F);
+		this.cabeza.yRot = pNetHeadYaw * ((float)Math.PI / 180F);
 	}
 
 	@Override

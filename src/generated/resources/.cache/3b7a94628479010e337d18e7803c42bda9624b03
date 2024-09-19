@@ -1,4 +1,4 @@
-// 1.20.6	2024-09-17T18:14:24.9748374	Item Models: valheimmod
+// 1.20.6	2024-09-18T23:49:49.8222263	Item Models: valheimmod
 74b4c8ba4b1d870a9ab497157fe058f68fb8a12c assets/valheimmod/models/item/bronze.json
 7a64b69140e27116a64ae003abbeef50be1ac94f assets/valheimmod/models/item/bronze_axe.json
 7668c05b86f605de1cc1703193d213786c67d9bb assets/valheimmod/models/item/bronze_boots.json
@@ -14,7 +14,7 @@ d92463cccb96ee26ae6bb1feae4deb590739f31c assets/valheimmod/models/item/bronze_le
 a09883052141629cd7951a6ac87350810f377303 assets/valheimmod/models/item/bronze_sword.json
 c2f32f399e578aad36f36192a3df0347093f6847 assets/valheimmod/models/item/bronze_wall.json
 3c469bb7d7e45764a374194bddadb13531d07793 assets/valheimmod/models/item/cooked_deer_meat.json
-63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/valheimmod/models/item/deer_spawn_egg.json
+e56a32bc05ff3f0ebbe9863b23029f2349ff39ef assets/valheimmod/models/item/deer_spawn_egg.json
 dd02ded2f79b284d5feaf361966981c92445ba84 assets/valheimmod/models/item/deer_trophy.json
 bc2053b258c140746702963eefaf5eb61b89a1e5 assets/valheimmod/models/item/onion.json
 057d455ebf9b3a3681541776d65685989a9e90c9 assets/valheimmod/models/item/onion_seed.json
@@ -22,5 +22,5 @@ bc2053b258c140746702963eefaf5eb61b89a1e5 assets/valheimmod/models/item/onion.jso
 e4984e86393f9183e785ce7e0da7d8526893c82e assets/valheimmod/models/item/raw_tin.json
 9cf35bf888d52cfe20018dd6fd60084d6883409e assets/valheimmod/models/item/surtling_core.json
 7ac3c0ac0a6297265eaf39fc93bc56aae3826655 assets/valheimmod/models/item/tin.json
-63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/valheimmod/models/item/troll_spawn_egg.json
+134b6f05e510cbcc3cf57e27365f7ad9d9cc03de assets/valheimmod/models/item/troll_spawn_egg.json
 3b04a4888e3e3634ba0496539a0d95f182b2727a assets/valheimmod/models/item/wishbone.json

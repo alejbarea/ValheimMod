@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class TrollRenderer extends MobRenderer<TrollEntity, troll<TrollEntity>> {
     public TrollRenderer(EntityRendererProvider.Context pContext) {
-        super(pContext, new troll<>(pContext.bakeLayer(ModModelLayers.TROLL_LAYER)), 1f);
+        super(pContext, new troll<>(pContext.bakeLayer(ModModelLayers.TROLL_LAYER)), 0.5f);
     }
 
     @Override

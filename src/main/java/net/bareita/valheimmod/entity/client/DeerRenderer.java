@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class DeerRenderer extends MobRenderer<DeerEntity, deer<DeerEntity>> {
     public DeerRenderer(EntityRendererProvider.Context pContext) {
-        super(pContext, new deer<>(pContext.bakeLayer(ModModelLayers.DEER_LAYER)), 1f);
+        super(pContext, new deer<>(pContext.bakeLayer(ModModelLayers.DEER_LAYER)), 0.5f);
     }
 
     @Override

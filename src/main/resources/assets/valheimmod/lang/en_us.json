@@ -38,5 +38,8 @@
   "entity.minecraft.villager.valheimmod.haldor": "Haldor",
   "item.valheimmod.troll_spawn_egg": "Huevo de Troll",
   "block.valheimmod.eikthyr_summon": "Altar de Eikthyr",
-  "item.valheimmod.deer_trophy": "Trofeo de Ciervo"
+  "item.valheimmod.deer_trophy": "Trofeo de Ciervo",
+  "entity.valheimmod.eikthyr": "Eikthyr",
+  "entity.valheimmod.troll": "Troll",
+  "entity.valheimmod.deer": "Ciervo"
 }

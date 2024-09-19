@@ -1,20 +1,22 @@
 package net.bareita.valheimmod.entity.ai;
 
+import net.bareita.valheimmod.entity.custom.EikthyrEntity;
 import net.bareita.valheimmod.entity.custom.TrollEntity;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 
-public class TrollAttackGoal extends MeleeAttackGoal {
-    private final TrollEntity entity;
+public class EikthyrAttackGoal extends MeleeAttackGoal {
+    private final EikthyrEntity entity;
     private int attackDelay = 20;
-    private int ticksUntilNextAttack = 20;
+    private int ticksUntilNextAttack = 10;
     private boolean shouldCountTillNextAttack = false;
-    private int ATTACK_RANGE = 5;
-    public TrollAttackGoal(PathfinderMob pMob, double pSpeedModifier, boolean pFollowingTargetEvenIfNotSeen) {
+    private int ATTACK_RANGE = 7;
+    public EikthyrAttackGoal(PathfinderMob pMob, double pSpeedModifier, boolean pFollowingTargetEvenIfNotSeen) {
         super(pMob, pSpeedModifier, pFollowingTargetEvenIfNotSeen);
-        this.entity = ((TrollEntity) pMob);
+        this.entity = ((EikthyrEntity) pMob);
     }
 
     @Override
@@ -42,7 +44,6 @@ public class TrollAttackGoal extends MeleeAttackGoal {
         int diffX = Math.abs(pEnemy.getBlockX() - this.entity.getBlockX());
         int diffY = Math.abs(pEnemy.getBlockY() - this.entity.getBlockY());;
         int diffZ = Math.abs(pEnemy.getBlockZ() - this.entity.getBlockZ());;
-
         return diffX + diffY + diffZ <= this.ATTACK_RANGE; // Make a private int called attack range (I have mine set to 5 and it works alright)
     }
 
@@ -72,8 +73,8 @@ public class TrollAttackGoal extends MeleeAttackGoal {
     @Override
     public void start() {
         super.start();
-        this.attackDelay = 40;
-        this.ticksUntilNextAttack = 40;
+        this.attackDelay = 20;
+        this.ticksUntilNextAttack = 10;
     }
 
     @Override

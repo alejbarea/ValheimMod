@@ -50,8 +50,8 @@ public class DeerEntity extends Animal {
         this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, Player.class, 3f));
         this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
         this.targetSelector.addGoal(1, new HurtByTargetGoal(this)); // Target only when hurt
-        this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.0D, false)); // Attack when provoked
-
+//        this.goalSelector.addGoal(3, new DeerAttackGoal(this, 1.0D, false)); // Attack when provoked
+        this.goalSelector.addGoal(1, new PanicGoal(this,1f));
     }
 
     @Override
